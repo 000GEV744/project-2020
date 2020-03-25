@@ -1,4 +1,0 @@
- -- command for products table creation
- create table products(id int primary key not null auto_increment,productId varchar(20) not null,productName varchar(50) not null,productCategory varchar(50) not null,productSubcategory varchar(50) not null , productDescription varchar(100) not null,productQuantity int(12) not null,productPrice int(12) not null, productAvailability int not null,productImage varchar(255) default null,renterId varchar(10) default null ,categoryId varchar(10) default null, cityId varchar(10) default null,unique(productId));
--- command for city table creation:
- create table city(id int not null primary key, cityId varchar(10) unique, city varchar(40) not null unique); 
